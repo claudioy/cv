@@ -1,0 +1,114 @@
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+body
+{ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: fit-content;
+  background: url(fondo1.jpg);
+  margin: 0px;
+  padding-top: 0px;
+  
+  
+    
+}
+* {
+  position: top;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p{text-align: center;
+  font-size: 18px;
+}
+
+header{
+    background-color: #263159;
+    color:aliceblue;
+    height: 80px;
+    position: top;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 22px;
+  
+
+      
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: url(fondo4.jpg);
+      width: 100%;
+    }
+  }
+
+.boton{
+    background-color: #263159;
+    color: aliceblue ;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 7px 1px #251749;
+    font-size: 16px;
+}
+
+.texto{
+border: 1px solid #263159;
+border-radius: 5px;
+width:fit-content;
+background-color: #263159;
+color: aliceblue ;
+box-shadow: 2px 2px 7px 1px #251749
+
+
+}
+.container{
+  
+  display: grid;
+  place-items: center;
+  
+}
+
+.nombre-foto{
+  display: grid;
+  place-items: center;
+  margin: 40px;
+  
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  
+}
+.icono{
+  width: 40px;
+  height: 40px;
+
+}
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: #251749;
+}
+
+.bx {
+  font-size: 50px;
+  color: #263159;
+
+
+}
